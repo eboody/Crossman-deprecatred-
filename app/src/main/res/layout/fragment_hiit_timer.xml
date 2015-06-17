@@ -4,38 +4,46 @@
     android:layout_height="wrap_content"
     android:background="#fff"
     android:orientation="vertical"
-    tools:context="com.eboodnero.crossman.hiit_timer"
+    tools:context="com.eboodnero.crossman.HiitTimer"
     android:padding="10dp"
     android:elevation="5dp"
     >
 
-<!--    <LinearLayout
+    <LinearLayout
+        android:id="@+id/linear_layout_rounds"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:focusableInTouchMode="true">
 
         <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:text="<" />
+            android:background="@drawable/ic_action_left"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1"
-            android:textSize="48sp"> </EditText>
+            android:textSize="48sp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            />
 
         <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:text=">" />
-    </LinearLayout>-->
+            android:background="@drawable/ic_action_right" />
+    </LinearLayout>
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:id="@+id/linear_layout_parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_below="@+id/linear_layout_rounds">
 
 
         <LinearLayout
@@ -143,7 +151,8 @@
         android:layout_below="@+id/linear_layout_parent"
         android:layout_centerHorizontal="true"
         android:focusableInTouchMode="false"
-        android:elevation="5dp" />
+        android:layout_marginTop="15dp"
+         />
 
 
 </RelativeLayout>

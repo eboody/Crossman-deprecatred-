@@ -7,31 +7,45 @@
 
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
-        <include
-            android:id="@+id/tool_bar"
-            layout="@layout/tool_bar" />
-
-        <FrameLayout
-            android:id="@+id/frame"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#ddd"
-            android:padding="15dp">
+            android:orientation="vertical">
 
-            <fragment
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:name="com.eboodnero.crossman.hiit_timer"
-                tools:layout="@layout/fragment_hiit_timer" />
-        </FrameLayout>
+            <include
+                android:id="@+id/tool_bar"
+                layout="@layout/tool_bar" />
 
-    </LinearLayout>
+            <LinearLayout
+                android:id="@+id/frame"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ddd"
+                android:padding="15dp"
+                android:orientation="vertical">
 
+                <FrameLayout
+                    android:id="@+id/fragment_container_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <FrameLayout
+                    android:id="@+id/fragment_container_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+<!--                <fragment
+                    android:name="com.eboodnero.crossman.HiitTimer
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:layout="@layout/fragment_hiit_timer" />-->
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation_view"
