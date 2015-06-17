@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@color/ColorPrimary"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+
+</android.support.v7.widget.Toolbar>
+<!-- From: file:/home/eran/Copy/code/Android/Android%20Studio%20Projects/Crossman/app/src/main/res/layout/tool_bar.xml -->

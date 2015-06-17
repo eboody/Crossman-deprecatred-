@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/eran/Copy/code/Android/Android Studio Projects/Crossman/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/home/eran/Copy/code/Android/Android Studio Projects/Crossman/app/build/intermediates/pre-dexed/debug/classes-c11f5f087d9710e65d33d17ce6d34d39b5fbdaee.jar" />
+    </item>
+    <item
+        jar="/home/eran/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/eran/Copy/code/Android/Android Studio Projects/Crossman/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-37fcccfa70bcef10e777946939c56d8f38a9e951.jar" />
+    </item>
+    <item
+        jar="/home/eran/Copy/code/Android/Android Studio Projects/Crossman/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/eran/Copy/code/Android/Android Studio Projects/Crossman/app/build/intermediates/pre-dexed/debug/classes-d5da840be914139bccba31c909d635f3fc8ab79e.jar" />
+    </item>
+    <item
+        jar="/home/eran/Copy/code/Android/Android Studio Projects/Crossman/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/eran/Copy/code/Android/Android Studio Projects/Crossman/app/build/intermediates/pre-dexed/debug/classes-c7c2255b111fd3b32273d78eb138cc2f22716a0d.jar" />
+    </item>
+    <item
+        jar="/home/eran/Copy/code/Android/Android Studio Projects/Crossman/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/eran/Copy/code/Android/Android Studio Projects/Crossman/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-277a111aa90a79b714e59ac27fb29ed2d218f089.jar" />
+    </item>
+    <item
+        jar="/home/eran/Copy/code/Android/Android Studio Projects/Crossman/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/home/eran/Copy/code/Android/Android Studio Projects/Crossman/app/build/intermediates/pre-dexed/debug/classes-a901bd1d4608c58636d0b764a29bd0e9516d3eea.jar" />
+    </item>
+
+</items>

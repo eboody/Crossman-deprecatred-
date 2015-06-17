@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Crossman</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="inbox_string">inbox</string>
+    <string name="starred_string">starred</string>
+    <string name="sent_mail_string">sent mail</string>
+    <string name="draft_string">drafts</string>
+    <string name="all_mail_string">all mail</string>
+    <string name="trash_string">trash</string>
+    <string name="spam_string">spa,</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

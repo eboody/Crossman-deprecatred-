@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.eboodnero.crossman.MainActivity">
+    <item
+        android:title="launcher"
+        xmlns:android="http://schemas.android.com/apk/res-auto"
+        android:icon="@mipmap/ic_launcher"
+        android:showAsAction="ifRoom"
+        ></item>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+</menu>
